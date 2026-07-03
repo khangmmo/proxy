@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Proxy Rotator",
+    "slug": "proxy-rotator",
+    "owner": "khangmmo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "proxyrotator",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "android": {
+      "usesCleartextTraffic": true,
+      "package": "com.khangmmo.proxyrotator"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.khangmmo.proxyrotator"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8387425b-56e2-4982-856a-bc2f946dea8a"
+      }
+    }
+  }
+}
