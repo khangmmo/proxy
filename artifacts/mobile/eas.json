@@ -7,10 +7,9 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
-      },
-      "packageManager": "npm",
-      "installCommand": "npm install"
-    }
+      }
+    },
+    "production": {}
   },
   "submit": {
     "production": {}
