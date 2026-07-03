@@ -1,1 +1,14 @@
-eas.json
+{
+  "cli": {
+    "version": ">= 8.0.0"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "workingDirectory": "artifacts/mobile"
+    }
+  }
+}
