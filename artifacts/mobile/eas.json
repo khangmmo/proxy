@@ -13,12 +13,5 @@
   },
   "submit": {
     "production": {}
-  },
-  "hooks": {
-    "post_clone": [
-      {
-        "file": "scripts/setup.sh"
-      }
-    ]
   }
 }
