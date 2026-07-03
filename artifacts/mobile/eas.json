@@ -8,7 +8,11 @@
       "android": {
         "buildType": "apk"
       },
-      "workingDirectory": "artifacts/mobile"
+      "packageManager": "npm",
+      "installCommand": "npm install"
     }
+  },
+  "submit": {
+    "production": {}
   }
 }
