@@ -7,7 +7,12 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
-      }
-    }
+      },
+      "packageManager": "npm"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
   }
 }
